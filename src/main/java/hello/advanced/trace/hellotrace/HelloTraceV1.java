@@ -23,11 +23,13 @@ public class HelloTraceV1 {
 
     // 로그 종료
     public void end(TraceStatus status) {
+
         complete(status, null);
     }
 
     // 로그 예외상황으로 종료
     public void exception(TraceStatus status, Exception e) {
+
         complete(status, e);
     }
 

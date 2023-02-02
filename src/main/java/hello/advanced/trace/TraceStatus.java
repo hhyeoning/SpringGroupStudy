@@ -12,7 +12,6 @@ public class TraceStatus {
         this.message = message;
     }
 
-    // test
     public TraceId getTraceId() {
         return traceId;
     }
